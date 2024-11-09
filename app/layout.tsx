@@ -27,12 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-     <title>Portfolio</title>
-      <script src="https://kit.fontawesome.com/145d2a49f0.js" crossOrigin="anonymous"></script>
+        <title>Portfolio</title>
+    
+        <Script
+          src="https://kit.fontawesome.com/145d2a49f0.js"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive" 
+        />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
