@@ -547,7 +547,7 @@ nav ul li a:hover{
 /* Responsive at 468px */
 @media (max-width: 468px) {
   .about-us {
-    height: 500px;
+    height: auto;
   }
 
   .about-us-heading {
@@ -643,7 +643,7 @@ nav ul li a:hover{
 }
 
 .projects-right-side {
-  margin-left: 2%; /* Adjust for better spacing */
+  margin-left: 2%; 
 }
 
 .button-container {
