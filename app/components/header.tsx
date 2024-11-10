@@ -182,53 +182,50 @@ export default function Header() {
       </section>
 
       {/* footer */}
-      <footer>
-        <div className="parent-footer">
-          <div className="one-coloumn">
-            <h1 className="footer-heading">Muhammad Shoaib</h1>
-            <p className="footer-description">
-              A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the
-              success of the overall product
-            </p>
-          </div>
+     <footer>
 
-          <div className="four-coloumn">
-            <h2 className="footer-heading">My Links</h2>
-            <ul>
-              <li>
-                <Link href="https://github.com/shoby056" target="blank">
-                  GitHub
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.linkedin.com/in/muhammad-shoaib-41927627a/" target="blank">
-                  LinkedIn
-                </Link>
-              </li>
-              <li>
-                <Link href="https://twitter.com/Shoby056" target="blank">
-                  Twitter
-                </Link>
-              </li>
-            </ul>
-          </div>
 
-          <div className="four-coloumn">
-            <h2 className="footer-heading">Services</h2>
-            <ul>
-              <li>
-                <Link href="#projects">Projects</Link>
-              </li>
-              <li>
-                <Link href="#about">About</Link>
-              </li>
-              <li>
-                <Link href="#contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+  <div className="parent-footer">
+    <div className="one-coloumn">
+  <h1 className="footer-heading">Muhammad Shoaib</h1>
+
+  <p className="footer-description">A Frontend focused Web Developer building the Frontend of
+     Websites <br/> and Web Applications that leads to the success of the overall product</p>
+      </div>
+
+
+
+
+
+
+  
+  
+
+
+<div className="four-coloumn">
+<h1 className="social">Social Media</h1>
+  
+<i className="fa-brands fa-facebook" aria-hidden="true"></i>
+<Link href="https://www.linkedin.com/in/muhammad-shoaib-41927627a/" target="blank"><i className="fa-brands fa-linkedin" aria-hidden="true"></i></Link>
+<i className="fa-brands fa-square-twitter" aria-hidden="true"></i>
+<Link href="https://github.com/shoby056" target="blank"><i className="fa-brands fa-github" aria-hidden="true"></i></Link>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+<hr />
+<p className="after-hr">© Copyright {new Date().getFullYear()}.Made by Muhammad Shoaib</p>
+</footer>
+
     </div>
   );
 }
